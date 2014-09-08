@@ -30,8 +30,8 @@ function upload(request, response) {
   console.log("about to parse");
   form.parse(request, function(error, fields, files) {
     console.log("parsing done");
-    console.log("fields: " + JSON.stringify(fields));
-    console.log("files:  " + JSON.stringify(files));
+    console.log("fields: %j", fields);
+    console.log("files:  %j", files);
     
     fs.rename(files.upload.path, "/tmp/test.png", function(error) {
       if (error) {

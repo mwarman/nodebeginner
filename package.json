@@ -1,7 +1,7 @@
 {
   "name": "nodebeginner",
   "description": "follow along with the book 'the node beginner'",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {},
   "dependencies": {
     "formidable": "1.0.x"
